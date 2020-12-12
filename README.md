@@ -1,4 +1,4 @@
-# g1-test
+# draggable-list
 
 ## Project setup
 ```
