@@ -1,0 +1,15 @@
+.dashboard-page__card {
+  border: 1px solid $cBlack;
+  border-radius: 5px;
+  padding: 0.5rem;
+
+  .dashboard-page__card-title {
+    margin-bottom: 1rem;
+  }
+
+  .dashboard-page__card-title,
+  .dashboard-page__card-description {
+    text-align: center;
+    word-break: break-word;
+  }
+}

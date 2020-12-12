@@ -1,0 +1,9 @@
+.card-create-page__body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid $cBlack;
+  width: 100%;
+  padding: 1.5rem 3rem;
+}

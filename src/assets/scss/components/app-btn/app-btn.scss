@@ -1,0 +1,38 @@
+.app-btn {
+  border: none;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  width: 10rem;
+  border-radius: 5px;
+  background-color: $cDisabledBtnBg;
+  color: $cMainWhite;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    background-color: $cDisabledBtnBg;
+
+    &:hover {
+      background-color: $cDisabledBtnBg;
+    }
+  }
+
+  &--cancel {
+    background-color: $cCancelBtnBg;
+
+    &:hover {
+      background-color: darken($cCancelBtnBg, 10%);
+    }
+  }
+
+  &--success {
+    background-color: $cSuccessBtnBg;
+
+    &:hover {
+      background-color: darken($cSuccessBtnBg, 10%);
+    }
+  }
+}

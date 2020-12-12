@@ -1,0 +1,10 @@
+.app-form__label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  span {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+}
